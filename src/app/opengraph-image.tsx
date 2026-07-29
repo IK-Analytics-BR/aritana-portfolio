@@ -43,7 +43,7 @@ export default function Image() {
             <span style={{ color: "#2563EB" }}>Brito</span>
           </div>
           <div style={{ fontSize: 22, color: "#64748b", fontWeight: 400 }}>
-            Fundadora da IK Analytics · 15+ anos
+            Fundador da IK Analytics · 15+ anos
           </div>
           <div style={{ fontSize: 18, color: "#94a3b8" }}>
             aritana.ikanalytics.com.br

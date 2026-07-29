@@ -70,7 +70,7 @@ export default function HomePage() {
 
               <AnimatedSection delay={0.4}>
                 <p className="text-slate-600 text-base max-w-lg mb-8 leading-relaxed">
-                  Fundadora da{" "}
+                  Fundador da{" "}
                   <span className="text-blue-600 font-semibold">IK Analytics</span>.
                   Mais de 15 anos liderando projetos de transformação digital para{" "}
                   <span className="text-slate-900 font-medium">órgãos públicos e empresas privadas</span>.
@@ -382,7 +382,7 @@ export default function HomePage() {
               </h2>
               <p className="text-slate-600 leading-relaxed mb-4">
                 Executivo de TI com mais de 15 anos de experiência em Business Intelligence,
-                Engenharia de Dados e IA. Fundadora da{" "}
+                Engenharia de Dados e IA. Fundador da{" "}
                 <span className="text-blue-600 font-semibold">IK Analytics</span>, responsável
                 pela transformação digital de órgãos públicos estaduais como{" "}
                 <span className="text-slate-900 font-medium">DETRAN/MS</span> e{" "}
@@ -405,7 +405,7 @@ export default function HomePage() {
             <AnimatedSection direction="right">
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  { label: "IK Analytics", desc: "Fundadora & CEO", color: "blue" },
+                  { label: "IK Analytics", desc: "Fundador & CEO", color: "blue" },
                   { label: "DETRAN/MS",    desc: "~7 anos • 13.200h", color: "emerald" },
                   { label: "SEFAZ/MS",     desc: "BI Tributário", color: "amber" },
                   { label: "Bluetrix",     desc: "Gov. do Estado", color: "violet" },

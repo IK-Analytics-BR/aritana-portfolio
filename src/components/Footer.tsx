@@ -59,7 +59,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 border-t border-slate-200 flex justify-center">
           <p className="text-slate-400 text-xs">
-            Fundadora &amp; CEO · IK Analytics · Campo Grande, MS
+            Fundador &amp; CEO · IK Analytics · Campo Grande, MS
           </p>
         </div>
       </div>

@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: "%s | Aritana Brito",
   },
   description:
-    "Portfólio executivo de Aritana Brito — Especialista em Business Intelligence, Engenharia de Dados, IA e Arquitetura de Soluções. Fundadora da IK Analytics. 15+ anos liderando projetos de transformação digital.",
+    "Portfólio executivo de Aritana Brito — Especialista em Business Intelligence, Engenharia de Dados, IA e Arquitetura de Soluções. Fundador da IK Analytics. 15+ anos liderando projetos de transformação digital.",
   keywords: [
     "Business Intelligence", "Engenharia de Dados", "Inteligência Artificial",
     "Arquitetura de Soluções", "Data Warehouse", "Analytics",
