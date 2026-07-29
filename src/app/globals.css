@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:       #ffffff;
+  --surface:  #f8fafc;
+  --card:     #ffffff;
+  --border:   #e2e8f0;
+  --primary:  #2563EB;
+  --cyan:     #06b6d4;
+  --text-1:   #0f172a;
+  --text-2:   #475569;
+  --text-3:   #94a3b8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-1);
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--primary); }
+
+/* Selection */
+::selection {
+  background-color: rgba(37, 99, 235, 0.12);
+  color: #0f172a;
+}
+
+/* Gradient text - blue to cyan */
+.gradient-text {
+  background: linear-gradient(135deg, #2563EB 0%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Blue gradient text for headings */
+.gradient-text-blue {
+  background: linear-gradient(135deg, #60a5fa 0%, #2563EB 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Clean card */
+.clean-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.clean-card:hover {
+  border-color: #bfdbfe;
+  box-shadow: 0 4px 12px rgba(37,99,235,0.08);
+}
+
+/* Section divider */
+.section-divider {
+  background: linear-gradient(90deg, transparent, #e2e8f0, transparent);
+  height: 1px;
+}
+
+/* Page wrapper - common padding */
+.page-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Prevent horizontal overflow on mobile */
+* { box-sizing: border-box; }
+body { overflow-x: hidden; }
