@@ -185,6 +185,30 @@ export default function ContatoPage() {
         </div>
 
       </div>
+
+      {/* LinkedIn Badge */}
+      <AnimatedSection className="mt-16 flex flex-col items-center gap-4">
+        <p className="text-slate-400 text-xs uppercase tracking-widest font-semibold">Perfil LinkedIn</p>
+        <div
+          className="badge-base LI-profile-badge"
+          data-locale="pt_BR"
+          data-size="medium"
+          data-theme="light"
+          data-type="VERTICAL"
+          data-vanity="aritana-brito-03a194397"
+          data-version="v1"
+        >
+          <a
+            className="badge-base__link LI-simple-link"
+            href="https://br.linkedin.com/in/aritana-brito-03a194397?trk=profile-badge"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Aritana Brito
+          </a>
+        </div>
+      </AnimatedSection>
+
     </div>
   );
 }
